@@ -2,7 +2,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 
 BOT_TOKEN = "8603637828:AAFpmlp1Q_nFxMJIljb1ZyQkDCFxUIXVrWA"
-YOUR_USER_ID = 8650062193
+YOUR_USER_ID = 6513668645
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Привет! Я передам ваше сообщение владельцу.")
